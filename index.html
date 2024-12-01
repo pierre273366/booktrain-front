@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="home">
+    <header>
+      <a id="brandName" href="./index.html">Tickethack</a>
+      <div id="menu">
+        <a href="./cart.html">Cart</a>
+        <a href="./bookings.html">Booking</a>
+      </div>
+    </header>
+    <main>
+      <h1 id="homeTitle">Explore the world effortlessly by train!</h1>
+      <p id="homeDescription">
+        Compare, book and enjoy cheap prices for train tickets: your journey
+        start on Tickethack.
+      </p>
+      <div id="twocards">
+        <div class="card" id="searchCard">
+          <div id="searchCard_depart-arrival">
+            <input
+              type="text"
+              required
+              placeholder="Departure"
+              id="inputDeparture"
+            />
+            <input
+              type="text"
+              required
+              placeholder="Arrival"
+              id="inputArrival"
+            />
+          </div>
+          <input type="date" required placeholder="Search" id="inputDate" />
+          <button type="button" class="button" id="searchTrip">Search</button>
+        </div>
+        <div class="card">
+          <div id="timeToBook">
+            <img class="imgtrain" src="images/train.png" />
+            <hr class="borderTrain" />
+            <p>It's time to book your future trip</p>
+          </div>
+          <div id="tripsList" class="hidden"></div>
+          <div id="noTripFound" class="hidden">
+            <img class="imgtrain" src="images/notfound.png" />
+            <hr class="borderTrain" />
+            <p>No trip found.</p>
+          </div>
+        </div>
+      </div>
+      <img id="gif" src="images/train-3360_128.gif" />
+    </main>
+    <script src="script-home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.tripList_row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  background-color: #f7f1f0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+#cart {
+  background-color: #f7f1f0;
+}
+
+#maincart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f1f0;
+}
+
+#myCart {
+  background-color: white;
+  border-radius: 8px;
+  width: 60%;
+  overflow: hidden;
+}
+
+#entete {
+  font-size: 8px;
+  margin-top: 24px;
+}
+
+#panier {
+  padding: 0 32px;
+}
+
+#footer {
+  display: flex;
+  height: 10%;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#tot {
+  margin-left: 20px;
+}
+
+.purchase {
+  background-color: rgb(79, 168, 144);
+  margin-right: 20px;
+}
+
+.planTrip {
+  background-color: white;
+  border-radius: 8px;
+  width: 60%;
+  padding: 16px;
+}
